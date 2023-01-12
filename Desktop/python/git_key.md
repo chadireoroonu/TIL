@@ -20,8 +20,6 @@
 
 `git log` : 커밋 내용을 확인
 
-
-
 ## CLI 명령어
 
 `ls` : 파일보기
@@ -44,6 +42,18 @@
 
 `rm -r` : 폴더 삭제
 
+## 설정
+
+`git config --list` : 현재 설정 확인 
+
+`git config --global user.name "이름"` : 이름 설정
+
+`git config --global user.email "email@com"` : 이메일 설정
+
+`git config --unset --global user.name` : 이름 삭제
+
+`git config --unset --global user.email` : 이메일 삭제
+
 
 
 ### 참고
@@ -61,9 +71,3 @@ vim 화면
 3. ESC 키
 
 4. 아랫쪽 줄에 :wq 입력 후 엔터
-
-
-
-
-
-

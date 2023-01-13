@@ -57,4 +57,28 @@ url/key:value
 
 
 
+requests library : 파이썬에서 요청을 쉽게 보낼 수 있게 도와주는 모듈
+
+- built-in function 아님
+
+
+
+페이지
+
+200번대 성공
+
+400번대 클라이언트 잘못
+
+    404 : page not found
+
+500번대 서버문제
+
+
+
+http://(규약, 약속) url ? key = value
+
+
+
+
+
 

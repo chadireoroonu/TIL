@@ -1,9 +1,9 @@
-words = ["round" , "dream", "magnet" , "tweet" , "tweet", "trick", "kiwi"]
+words = ["round" , "drea", "magnet" , "tweet" , "tweet", "trick", "kiwi"]
 
 i = 0
 alpha = []
 while True:
-    if words[[i][-1]] != words[[i+1][0]]:
+    if words[i][-1] != words[i+1][0]:
         break
     else:
         if words[i] in alpha:
@@ -13,7 +13,7 @@ while True:
             pass
     i += 1
 
-print(f'{[i+1]} lose')
+print(f'{i+2} lose')
 
 
 # for i in words:

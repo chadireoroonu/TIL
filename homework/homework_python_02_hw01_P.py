@@ -1,15 +1,17 @@
 orders = '아이스아메리카노,카라멜마키야또,에스프레소,아메리카노,아메리카노,아이스라떼,핫초코,아이스아메리카노,아메리카노,아이스카라멜마키야또,아이스라떼,라떼마키야또,카푸치노,라떼마키야또'
 
-orders = orders.split(',')
+orders = orders.split(',') # 목록의 문자열을 ',' 기준으로 분리
 
-menu = []
+print(len(orders)) # 14
+
+menu = [] # 겹치지 않는 것들을 담을 빈 리스트 생성
 for order in orders:
-    if order in menu:
+    if order in menu: # 이미 리스트에 담겼다면 패스
         pass
     else:
-        menu.append(order)       
+        menu.append(order) # 리스트에 담겨있지 않은 메뉴라면 추가
 
-print(len(menu))
-
-menu.sort()
+menu.sort(reverse=True) # 메뉴 내림차순 정렬
 print(menu)
+# ['핫초코', '카푸치노', '카라멜마키야또', '에스프레소', '아이스카라멜마키야또',
+# '아이스아메리카노', '아이스라떼', '아메리카노', '라떼마키야또']

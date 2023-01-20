@@ -54,7 +54,9 @@
 
 `git config --unset --global user.email` : 이메일 삭제
 
+`git remote -v` : 현재 디렉토리와 연결된 원격저장소 확인
 
+`git remote add (origin) (url)` :    연결 디렉토리 추가
 
 ### 참고
 

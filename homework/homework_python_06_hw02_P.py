@@ -24,3 +24,4 @@ def group_anagams(words):
     return []
 
 print([])
+

@@ -1,7 +1,7 @@
 def is_id_valid(user_data):
     pass
     # 여기에 코드를 작성합니다.
-    last_data = user_data['password'][-1] # password 값의 마지막 글자를 추출
+    last_data = user_data['id'][-1] # password 값의 마지막 글자를 추출
     i = 0
     while i <= 9: # i가 9보다 작거나 같은 동안
         if str(i) == last_data: # 문자열 i와 마지막 글자를 비교

@@ -11,19 +11,29 @@ def max_revenue(movies):
         'title': movies_list[t]['title'], # 무비 리스트의 t번째 항목의 정보들 수집
         }
 
+        list_movie.append(new_dict)
+    # print(list_movie)
+        
         movies_num = [13, 122, 129, 155, 238, 278, 311, 424, 497, 550, 598, 637, 
         680, 914, 4935, 11216, 324857, 372058, 378064, 496243, 527774, 572154]
 
         for i in range(len(movies_num)):
             new_movie_json = open(f'data/movies/{movies_num[i]}.json', encoding='utf-8')
             new_movies = json.load(new_movie_json)
-            for j in range(len(new_dict)):
-                if new_dict['title'] == new_movies['title']:
-                    new_dict['revenue'] = new_movies['revenue']
+            for j in range(len(list_movie)):
+                if list_movie[j]['title'] == new_movies['title']:
+                    list_movie[j]['revenue'] = new_movies['revenue']
 
-                print(new_dict['revenue'])
-                
-
+        # # print(new_dict)
+    # print(list_movie)
+    max_revenue = 0
+    the_num = []
+    for k in range(len(list_movie)):
+        if list_movie[k]['revenue'] > max_revenue:
+            max_revenue = list_movie[k]['revenue']
+            the_num.append(k)
+    
+    return list_movie[the_num[-1]]['title']
 
 
 # 아래의 코드는 수정하지 않습니다.

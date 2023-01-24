@@ -114,3 +114,6 @@ def get_secret_number(word1, word2):
         return word2
 
 print(get_secret_number(word1, word2))
+
+# 아스키 코드 교수님 힌트
+# 파이썬 공식 문서에서 ord(), chr() 찾아보기!

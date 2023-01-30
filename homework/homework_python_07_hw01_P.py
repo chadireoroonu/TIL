@@ -26,13 +26,16 @@ class Doggy: # 도기 클래스를 생성
     def get_status(cls):
         return (cls.birth_of_dogs, cls.num_of_dogs)
 
-choco = Doggy('choco', 'poodle')
+choco = Doggy('choco', 'poodle') # 새 개 초코 태어남
 # print(Doggy.num_of_dogs)       # 1
 # print(Doggy.birth_of_dogs)     # 1
-print(choco.bark)
+print(choco.bark) # 초코 짖음
 
-del choco
+del choco # 초코 죽음
 # print(Doggy.num_of_dogs)       # 0
 # print(Doggy.birth_of_dogs)     # 1
 
-print(Doggy.get_status())        # (1, 0)
+dubu = Doggy('dubu', 'jindo') # 새 개 두부 태어남
+
+print(Doggy.get_status())        # (2, 1)
+# 만약 dubu가 프린트 아래에 위치하면 죽어버림...!

@@ -1,19 +1,18 @@
 class Point:
     pass
-
     def __init__(self, x, y):
         self.x = x
         self.y = y
 
-
 class Rectangle:
     pass
-
     def __init__(self, p1, p2):
-        self.get_area = 
+        width = abs(p1.x - p2.x)
+        height = abs(p1.y - p2.y)
 
-        
-
+        self.get_area = width * height
+        self.get_perimeter = 2 * (width + height)
+        self.is_square = width == height
 
 # 입력 예시
 p1 = Point(1, 3)

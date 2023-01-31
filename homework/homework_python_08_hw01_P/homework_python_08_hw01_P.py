@@ -1,3 +1,20 @@
+class Point:
+    pass
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+
+class Rectangle:
+    pass
+
+    def __init__(self, p1, p2):
+        self.get_area = 
+
+        
+
+
 # 입력 예시
 p1 = Point(1, 3)
 p2 = Point(3, 1)

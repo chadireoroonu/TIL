@@ -59,23 +59,23 @@ class Pokemon:
 # pika == Pokemon의 인스턴스
 # 생성자에는 2개 인자를 입력하기로 함
 # lv은 기본 값이 있어서 이름만 입력해도 됨
-print(Pokemon.population, '피카츄 태어나기 전')
-pika = Pokemon('피카츄') # 새로운 객체를 생성하여 pika에 할당
-print(Pokemon.population, '피카츄 태어난 이후')
-print(pika.name)
-print(pika.lv, pika.skill, pika.hp)
-print(pika.info)
-pika.attack()
+# print(Pokemon.population, '피카츄 태어나기 전')
+# pika = Pokemon('피카츄') # 새로운 객체를 생성하여 pika에 할당
+# print(Pokemon.population, '피카츄 태어난 이후')
+# print(pika.name)
+# print(pika.lv, pika.skill, pika.hp)
+# print(pika.info)
+# pika.attack()
 
-# 똑같이 Pokemon에 해당하는 새로운 객체를 생성한다.
-meta = Pokemon('메타몽', 5)
-print(meta.name)
-print(meta.lv, meta.skill, meta.hp)
-print(meta.info)
-meta.attack()
+# # 똑같이 Pokemon에 해당하는 새로운 객체를 생성한다.
+# meta = Pokemon('메타몽', 5)
+# print(meta.name)
+# print(meta.lv, meta.skill, meta.hp)
+# print(meta.info)
+# meta.attack()
 
-Pokemon.battle(pika, meta)
-pika.battle(pika, meta)
+# Pokemon.battle(pika, meta)
+# pika.battle(pika, meta)
 
 # print(pika.population) # 접근해서 출력은 가능한데
 

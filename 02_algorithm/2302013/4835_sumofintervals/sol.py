@@ -14,8 +14,10 @@ for tc in range(1, T+1): # 테스트 케이스 숫자 동안에
         for j in range(i, i+M): # j는 i부터 i+M 전까지
             sum_case += num[j] # 합계에 num[j]를 합산
         sum_list.append(sum_case) # 더한 값을 썸 케이스 리스트에 추가
+
     sum_max = sum_list[0] # 최댓값과 최솟값은 썸 케이스 리스트의 첫 인자로 설정
     sum_min = sum_list[0]
+
     for k in sum_list: # k가 썸리스트 안에 있는 동안
         if k < sum_min: # k가 최솟값보다 작다면 최솟값 갱신
             sum_min = k

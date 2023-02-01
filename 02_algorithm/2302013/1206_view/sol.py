@@ -1,3 +1,6 @@
+# SW Expert Academy
+# https://swexpertacademy.com/main/talk/solvingClub/problemView.do?solveclubId=AYYKdGQ6Qh0DFAVw&contestProbId=AV134DPqAA8CFAYh&probBoxId=AYYKdGRKQh4DFAVw&type=PROBLEM&problemBoxTitle=HomeWork&problemBoxCnt=1
+
 import sys
 sys.stdin = open('input.txt')
 

@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
-for tc in range(0, 10): # 테스트 케이스는 총 9개가 주어짐
+for tc in range(0, 10): # 테스트 케이스는 총 10개가 주어짐
     dump = int(input()) # 처음 줄에 입력된 값은 덤프할 수 있는 횟수
     box = list(map(int, input().split())) # 그 다음 값들은 각각을 숫자 형태로 변환하여 박스 리스트에 추가
     for i in range(0, dump): # 덤프 할 수 있는 횟수 동안 반복문 설정

@@ -15,6 +15,7 @@ for tc in range(1, T+1): # 테스트 케이스는 1부터 T+1번까지
     for j in range(len(counting_arr)): # counting_arr의 길이 범위 안에서
         if counting_arr[j] >= max_card: # counting_arr의 j번째 요소가 최댓값보다 크다면
             max_card = counting_arr[j] # 해당 요소로 최댓값 변경
+
     if counting_arr.count(max_card) == 1: # 만약 최댓값이 하나라면
         print(f'#{tc} {counting_arr.index(max_card)} {max_card}') # 인덱스와 최댓값 출력
     else: # counting_arr 안에 최댓값이 한 개가 아니라면
@@ -22,4 +23,6 @@ for tc in range(1, T+1): # 테스트 케이스는 1부터 T+1번까지
         for i in range(len(counting_arr)): # counting_arr를 순회하며
             if counting_arr[i] == max_card: # 최댓값 요소들을 찾아
                 max_list.append(i) # max_list 리스트에 추가하고
+
         print(f'#{tc} {max_list[-1]} {max_card}') # 그중 가장 큰 인덱스와 최댓값 출력
+

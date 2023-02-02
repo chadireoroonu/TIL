@@ -11,8 +11,18 @@ for q in range(0, n):
     counting_arr = [0] * 9
     for i in num_list:
         counting_arr[i-1] += 1
+    counting_sum = [counting_arr[0]]
+    sum = counting_arr[0]
+    for i in range(1, len(counting_arr)):
+        sum += counting_arr[i]
+        counting_sum.append(sum)
+
+    for i in range(1, len(num_list)):
+        num_list[-1]
+
 
     print(counting_arr)
+    print(counting_sum)
 
     baby_gin = []
     # for i in counting_arr:

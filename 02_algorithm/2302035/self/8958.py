@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open('input.txt')
-
 t = int(input())
 
 for tc in range(t):

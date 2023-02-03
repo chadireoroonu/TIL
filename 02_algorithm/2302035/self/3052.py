@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open('input.txt')
-
 num = []
 for i in range(10):
     n = int(input())

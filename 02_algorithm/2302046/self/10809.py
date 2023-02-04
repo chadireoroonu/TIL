@@ -1,13 +1,17 @@
 s = input()
 alpha = {}
-alpha_list = 'abcdefghijklimopqrstuvwxyz'
+alpha_list = 'abcdefghijklmnopqrstuvwxyz'
 for i in alpha_list:
     alpha[i] = -1
+num = 0
+num_dic = {}
 for i in s:
-    index_s = 0
     if i in alpha:
-        index_s =
-        alpha[i] = i + 1
+        if alpha[i] != -1:
+            pass
+        else:
+            alpha[i] = num
+    num += 1
 
 for i in alpha.values():
     print(i, end= ' ')

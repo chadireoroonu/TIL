@@ -11,8 +11,7 @@ for i in range(k):
     path.append(a)
 
 for i in range(len(path)):
-    path_sum = 0
     for j in range(len(path[i])):
-        path_sum += path[i][j]
-
-    print(path_sum)
+        if path[i][j] == 1:
+            if path[i][j+1]:
+                if

@@ -49,10 +49,11 @@ for q in range(10):
 
     # 기울기가 양인 대각선의 합을 구하기 위한 조건으로,
     # i와 j의 합이 100이라는 조건을 붙여 합을 구한 뒤 리스트에 추가한다.
+    # -> 발표를 들으면서 i와 j의 합이 99여야 한다는 점을 깨닫고 코드 수정
     for i in range(100):
         total = 0
         for j in range(100):
-            if i + j == 100:
+            if i + j == 99:
                 total += arr[i][j]
         total_list.append(total)
 

@@ -11,9 +11,10 @@ for tc in range(1, T+1):
         for j in range(1, 11):
             if i & (1<<j):
                 new_arr.append(arr[j])
-            # print(new_arr)
-        if sum(new_arr) == 0:
-            print(1)
-            break
+
+        if len(new_arr) >= 1:
+            if sum(new_arr) == 0:
+                print(f'#{tc} 1')
+                break
     else:
-        print(0)
+        print(f'#{tc} 0')

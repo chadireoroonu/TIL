@@ -12,24 +12,32 @@ for q in range(10):
                 goal = j
     # print(goal)
 
-    def labber(goal):
-        iidx = 99
-        jidx = goal
-        for i in range(iidx, 0, -1):
-            if jidx == 99:
-                if arr[i][jidx - 1] == 1:
+    def labber(iidx, jidx):
+        if iidx == 0:
+            return jidx
+        else:
+            for i in range(iidx, 0, -1):
+                if jidx == 99:
+                    if arr[i][jidx - 1] == 1:
+                        iidx = i
+                        break
+                elif jidx == 0:
+                    if arr[i][jidx + 1] == 1:
+                        iidx = i
+                        break
+                elif arr[i][jidx - 1] == 1 or arr[i][jidx + 1] == 1:
                     iidx = i
                     break
-            elif jidx == 0:
-                if arr[i][jidx + 1] == 1:
-                    iidx = i
-                    break
-            elif arr[i][jidx - 1] == 1 or arr[i][jidx + 1] == 1:
-                iidx = i
-                break
-        print(iidx)
-        if arr[iidx][jidx - 1] == 1:
-            for j in range(jidx, 0, -1):
-                if arr[iidx][j] == 1:
 
+            if arr[iidx][jidx - 1] == 1:
+                while arr[iidx][jidx-1] == 1:
+                    jidx -= 1
+            elif arr[iidx][jidx + 1] == 1:
+                while arr[iidx][jidx+1] == 1:
+                    jidx += 1
+
+                return labber(iidx, jidx)
+
+
+    print(labber(99, goal))
 

@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
+# 제한 시간 초과됨
 q = int(input())
 for tc in range(1, q+1):
     n = int(input())
@@ -28,15 +29,17 @@ for tc in range(1, q+1):
                 for i in range(a, b+1):
                     if i % 4 == 0:
                         stop.append(i)
-    # maxi = 0
-    # for i in stop:
-    #     count = 0
-    #     for j in stop:
-    #         if i == j:
-    #             count += 1
-    #     if count > maxi:
-    #         maxi = count
 
-    
+    maxi = 0
+    for i in stop:
+        count = 0
+        for j in stop:
+            if i == j:
+                count += 1
+        if count > maxi:
+            maxi = count
+
+
+
 
     print(f'#{tc} {maxi}')

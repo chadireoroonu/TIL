@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open('input.txt')
-
 maxi = 0
 train = 0
 for i in range(4):

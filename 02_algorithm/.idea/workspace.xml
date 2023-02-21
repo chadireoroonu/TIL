@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8750829b-acd5-44a4-b978-94832a9ed67e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/02_algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/02_algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/1215/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/1215/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/13994/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/13994/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/13994/sol_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/13994/sol_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/16268/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/16268/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/6019/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/6019/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/6485/SWEA 6485. 삼성시의 버스 노선.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/6485/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/6485/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/6485/sol_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02127/6485/sol_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02164/4880/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02164/4880/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02164/4880/sol1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02164/4880/sol2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02164/4880/sol3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02164/4880/solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02164/4881/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02164/4881/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02164/4881/solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/10760/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/10760/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1217/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1217/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1217/sol_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1222/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1222/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1223/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1223/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1224/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1224/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1234/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/1234/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/13686/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/13686/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/2005/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/2005/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/4615/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/4615/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/9489/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/9489/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/9489/sol_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02201/1/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02201/1219/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02201/1219/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02212/1226/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02212/1226/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02212/5102/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02212/5102/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02212/5102/sol_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02212/5105/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02212/5105/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02212/self/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02212/self/input.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2M36o2h0ejKAX3aydH8evVbN1B6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+  </component>
+  <component name="RunManager" selected="Python.2167">
+    <configuration name="1316" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="02_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02212/self" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02212/self/1316.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2167" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="02_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02212/self" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02212/self/2167.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.2167" />
+        <item itemvalue="Python.1316" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8750829b-acd5-44a4-b978-94832a9ed67e" name="Default Changelist" comment="" />
+      <created>1676984092130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676984092130</updated>
+    </task>
+    <servers />
+  </component>
+</project>

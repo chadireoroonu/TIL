@@ -4,8 +4,11 @@ sys.stdin = open('input.txt')
 def words(node):
     if node:
         words(left[node])
-        print(word[left[node]], end= ' ')
+        if word[left[node]] != 0:
+            print(word[left[node]], end= ' ')
         words(right[node])
+        # if word[right[node]] != 0:
+        #     print(word[right[node]], end= ' ')
 
 for case in range(10):
     n = int(input())
@@ -27,9 +30,6 @@ for case in range(10):
             pass
         parent[int(temp[0])] = int(temp[0])
 
-    print(word)
-    print(parent)
-    print(left)
-    print(right)
 
-    print(words(1))
+    words(1)
+    print()

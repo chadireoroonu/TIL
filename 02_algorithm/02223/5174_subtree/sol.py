@@ -32,7 +32,6 @@ for tc in range(1, T+1):
     v = max(edge)
 
     # 부모, 왼쪽과 오른쪽 자식을 나타낼 리스트 생성
-    parent = [0] * (v+1)  # 없어도 됨
     left = [0] * (v+1)
     right = [0] * (v+1)
 
@@ -43,6 +42,5 @@ for tc in range(1, T+1):
             left[p] = c
         else:
             right[p] = c
-        parent[c] = p  # 얘도 없어도 됨
 
     print(f'#{tc} {child(n)}')

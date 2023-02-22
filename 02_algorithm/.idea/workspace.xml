@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8750829b-acd5-44a4-b978-94832a9ed67e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02223/1231_inorder/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02223/1231_inorder/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02223/1231_inorder/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/02223/1231_inorder/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02223/5174_subtree/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/02223/5174_subtree/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02223/5176_binary_search/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02223/5176_binary_search/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02223/5176_binary_search/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/02223/5176_binary_search/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,28 +40,7 @@
       <recent name="C:\Users\SSAFY\Desktop\TIL\02_algorithm\02223\1_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol">
-    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="02_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02223/1_practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02223/1_practice/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sol (3)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,6 +104,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sol (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="02_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02223/1244_boj_swich" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02223/1244_boj_swich/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="02_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol (3)" />
         <item itemvalue="Python.sol" />
         <item itemvalue="Python.sol (1)" />
         <item itemvalue="Python.sol_1" />
         <item itemvalue="Python.sol (2)" />
-        <item itemvalue="Python.1 (1)" />
       </list>
     </recent_temporary>
   </component>

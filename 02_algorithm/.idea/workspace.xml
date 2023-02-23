@@ -4,8 +4,24 @@
     <list default="true" id="8750829b-acd5-44a4-b978-94832a9ed67e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02142/self/1620.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02142/self/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02175/self/1018.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02175/self/10773.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02175/self/1085.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02175/self/1764.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02175/self/8958.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02175/self/9012.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02175/self/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02175/self/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02186/self/2/1225.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02186/self/3/1100.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02186/self/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/self/1/2490.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/self/1/2522.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/self/1/2941.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02197/self/input.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/02223/1231_inorder/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/02223/1231_inorder/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02223/5174_subtree/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/02223/5174_subtree/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +56,7 @@
       <recent name="C:\Users\SSAFY\Desktop\TIL\02_algorithm\02223\1_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol (3)">
+  <component name="RunManager" selected="Python.test">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,27 +78,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="02_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02223/5174_subtree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02223/5174_subtree/sol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sol (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="02_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02223/5176_binary_search" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02234/5177_heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02223/5176_binary_search/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02234/5177_heap/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,6 +120,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sol (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="02_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02234/5178_sum_of_node" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02234/5178_sum_of_node/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="02_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="02_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02223/5176_binary_search" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02223/1231_inorder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02223/5176_binary_search/sol_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02223/1231_inorder/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sol (3)" />
-        <item itemvalue="Python.sol" />
-        <item itemvalue="Python.sol (1)" />
-        <item itemvalue="Python.sol_1" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.sol (2)" />
+        <item itemvalue="Python.sol (4)" />
+        <item itemvalue="Python.sol" />
+        <item itemvalue="Python.sol (3)" />
       </list>
     </recent_temporary>
   </component>

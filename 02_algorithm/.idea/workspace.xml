@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8750829b-acd5-44a4-b978-94832a9ed67e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02234/5177_heap/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/02234/5177_heap/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02234/2304_warehouse_figure/sol_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/02234/2304_warehouse_figure/sol_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
       <recent name="C:\Users\SSAFY\Desktop\TIL\02_algorithm\02223\1_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol (3)">
+  <component name="RunManager" selected="Python.sol_1">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,9 +169,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol_1" />
         <item itemvalue="Python.sol (3)" />
         <item itemvalue="Python.sol" />
-        <item itemvalue="Python.sol_1" />
         <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.test (2)" />
       </list>

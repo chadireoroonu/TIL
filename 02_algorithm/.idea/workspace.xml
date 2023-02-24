@@ -39,7 +39,7 @@
       <recent name="C:\Users\SSAFY\Desktop\TIL\02_algorithm\02223\1_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol (4)">
+  <component name="RunManager" selected="Python.sol">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sol (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="02_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02234/2010_plug" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02245/10163_color_paper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02234/2010_plug/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02245/10163_color_paper/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02234/2628_cutting_paper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02245/2491_sequence" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02234/2628_cutting_paper/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02245/2491_sequence/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol" />
+        <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.sol (4)" />
         <item itemvalue="Python.sol (1)" />
         <item itemvalue="Python.sol_1" />
-        <item itemvalue="Python.sol (3)" />
-        <item itemvalue="Python.sol" />
       </list>
     </recent_temporary>
   </component>

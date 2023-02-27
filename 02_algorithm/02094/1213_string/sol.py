@@ -31,4 +31,4 @@ for t in range(10):
             count += 1
             p_idx = 0  # 다음 위치부터는 처음부터 다시 조사
 
-    print(count)
+    print(f'#{tc} {count}')

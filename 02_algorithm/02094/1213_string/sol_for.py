@@ -15,4 +15,4 @@ for _ in range(10):
                 break
         else:
             count += 1
-    print(count)
+    print(f'#{tc} {count}')

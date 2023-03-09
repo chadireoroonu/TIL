@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 외부참조 -->
+  <link rel="stylesheet" href="homework3_2.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 경고창 -->
+    <header></header>
+      <!-- 경고창 본문 -->
+      <div class="alert">
+        <!-- 메세지 -->
+        <p class="aler-text">Invalid Login or password</p>
+      </div>
+    <!-- 로그인 form -->
+    <section>
+      <!-- 로그인 제목 -->
+      <div class="login-title">
+        <h1 class="login-title-text">SSAFY 전용 Gitlab 시스템</h1>
+        <hr>
+      </div>
+      <!-- 로그인 입력창 -->
+      <div class="login-form">
+        <div class="login-form-title">
+          <p>Sign in</p>
+        </div>
+        <form class="form" action="">
+          <!-- username -->
+          <label for="">Username or Email</label>
+          <input type="text">
+
+          <!-- password -->
+          <label for="">Password</label>
+          <input type="password">
+
+        <!-- 정렬의 영향을 피하기 위해 자식이 아닌 자손으로 만들어주는 과정 -->
+        <div class="form-check">
+          <div>
+          <!-- checkbox -->
+            <input type="checkbox" name="" id="">
+            <label for="">Remember me</label>
+          </div>
+          <!-- 비밀번호 찾기 -->
+          <a href="">Forgot your password?</a>
+        </div>
+
+          <!-- 제출 버튼 -->
+          <input type="submit" value="Sign in">
+        </form>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

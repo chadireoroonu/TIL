@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
-def sol(x, y):    # 음식물의 크기 조사 
+def sol(x, y):    # 음식물의 크기 조사
     global maxi
     queue = [x, y]
     arr[x][y] = 0

@@ -22,5 +22,6 @@ urlpatterns = [
     # articles app이 가지고 있는 요청 경로는
     # articles/urls.py 참고해서 처리
     # include('app_name.urls')
-    path('articles/', include('articles.urls'))
+    path('articles/', include('articles.urls')),
+    path('pages/', include('pages.urls'))
 ]

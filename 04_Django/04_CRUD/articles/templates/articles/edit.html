@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>수정</h1>
+  <form action="{% url 'article:update' article.pk %}" method="POST">
+    <!-- 암호 -->
+    {% csrf_token %}
+     <!-- 제목 -->
+    <label for="title">제목 : </label>
+    <input type="text" id="title" name="title" value=" {{ article.title }}">
+    <br>
+    <!-- 내용 -->
+    <label for="content">내용 : </label>
+    <textarea name="content" id="content" cols="30" rows="10">{{ article.content }}
+    </textarea>
+    
+    <!-- 버튼 -->
+    <input type="submit" value="게시글 수정">
+
+  </form>
+
+{% endblock content %}

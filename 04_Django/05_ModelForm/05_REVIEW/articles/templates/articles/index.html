@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>INDEX PAGE</h1>
+  {% for article in articles %}
+  <p>{{ article.pk}}번 게시글</p>
+  <p>제목 : {{ article.title }}</p>
+  <hr>
+  {% endfor %}
+{% endblock content %}

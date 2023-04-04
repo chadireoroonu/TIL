@@ -7,7 +7,9 @@
   {% for movie in movies %}
 
     <h3>{{ movie.pk }}번 게시글</h3>
-    <p>title : {{ movie.title }}</p>
+    <a href="{% url 'movies:detail' movie.pk %}">
+      <p>title : {{ movie.title }}</p>
+    </a>
     <p>score : {{ movie.score }}</p>
     <hr>
   {% endfor %}

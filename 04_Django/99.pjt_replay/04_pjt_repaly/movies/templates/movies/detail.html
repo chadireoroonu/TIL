@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>DETAIL</h1>
+    <hr><br>
+    <p>title : {{ movie.title }}</p><br>
+    <p>audience : {{ movie.audience }}</p><br>
+    <p>release_date : {{ movie.release_date }}</p><br>
+    <p>genre : {{ movie.genre }}</p><br>
+    <p>score : {{ movie.score }}</p><br><hr>
+    <p>poster_url : {{ movie.poster_url }}</p><br>
+    <p>description : {{ movie.description }}</p><br>
+    <hr>
+    <a href=" {% url 'movies:index' %} ">BACK</a><br>
+    <a href="{% url 'movies:update' movie.pk %}">UPDATE</a>
+{% endblock content %}
+

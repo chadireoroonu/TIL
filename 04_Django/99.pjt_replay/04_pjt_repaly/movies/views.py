@@ -42,3 +42,9 @@ def update(request, movie_pk):
     context = {'form': form}
     return render(request, 'movies/update.html', context)
 
+def delete(request, movie_pk):
+
+    movie = Movie.objects.get(pk=movie_pk)
+    movie.delete()
+
+    return redirect('movies:index')

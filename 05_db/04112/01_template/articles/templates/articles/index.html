@@ -1,0 +1,30 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+  <h1>INDEX</h1>
+  <a href="{% url 'articles:create' %}">작성하기</a>
+  <hr />
+
+  {% for article in articles %}
+    <p>
+      [{{article.id}}] 
+      <a href="{% url 'articles:detail' article.pk %}" id="article-title">{{article.title}}</a>
+      - 작성자: {{article.user}}
+    </p>
+    
+    {% comment %} 좋아요 개수 보여주기 {% endcomment %}
+    <span>좋아요 : {{ article.like_users.count }}개</span>
+
+    {% comment %} 좋아요 버튼 추가 및 좋아요 여부에 따라 버튼이 다르게 처리 {% endcomment %}
+    <form action="{% url 'article:likes' article.pk %}" method="POST">
+      {% csrf_token %}
+      {% if request.user in article.like_users.all %}
+        <input type="submit" value="좋아요 취소">
+      {% else %}
+        <input type="submit" value="좋아요">
+      {% endif %}
+    </form>
+    <hr />
+  {% endfor %} 
+
+{% endblock content %}

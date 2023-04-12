@@ -1,0 +1,35 @@
+// python manage.py dumpdata articles.article --indent 4 > articles.json
+[
+{
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+        "user": 2,
+        "title": "wpahr",
+        "content": "�ߏp",
+        "image": "zzz.jpg",
+        "created_at": "2023-04-12T00:10:00.321Z",
+        "updated_at": "2023-04-12T00:10:00.321Z",
+        "like_users": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "title": "����",
+        "content": "����",
+        "image": "zzz_egl62kF.jpg",
+        "created_at": "2023-04-12T00:45:30.788Z",
+        "updated_at": "2023-04-12T00:45:30.788Z",
+        "like_users": [
+            1,
+            2
+        ]
+    }
+}
+]

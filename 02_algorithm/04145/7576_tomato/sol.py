@@ -13,8 +13,9 @@ def tomato(arr):
             if arr[a][b] == 1:
                 red.append(a)
                 red.append(b)
-    change(arr, red)
+    change(arr, red)    # 토마토 숙성
 
+    # 전체 숙성 여부 및 기간 판별
     day = 0
     for a in range(n):
         for b in range(m):
@@ -25,11 +26,15 @@ def tomato(arr):
 
     return print(day-1)
 
+# 토마토 숙성 함수 시간 인덱스 활용으로 시간 초과 해결
 def change(arr, q):
     queue = q
-    while queue:
-        i = queue.pop(0)
-        j = queue.pop(0)
+    x = 0
+    while x < len(queue):
+        i = queue[x]
+        x += 1
+        j = queue[x]
+        x += 1
         di, dj = [-1, 1, 0, 0], [0, 0, -1, 1]
         for k in range(4):
             ni, nj = i + di[k], j + dj[k]

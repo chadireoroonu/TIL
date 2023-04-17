@@ -15,17 +15,24 @@ sys.stdin = open('input.txt')
 def downhill(x, y):
     load = 0
     stack = [[x, y]]
-    p = 0
+    c = 0
     visited = []
-    while p < len(stack):
-        pointer = -1
+    while c < len(stack):
+        p = -1
         while True:
-            if [[stack[pointer][0]], [stack[pointer][1]]] not in visited:
-                i, j = stack[pointer][0], stack[pointer][1]
+            print(f'load={load}, p={p}')
+            print(f'stack={stack}')
+            print(f'visited={visited}')
+            print([stack[p][0], stack[p][1]])
+            print(stack[p][0], stack[p][1])
+            # visited 에 있어도 i, j를 설정해주는 문제 발생
+
+            if [stack[p][0], stack[p][1]] not in visited:
+                i, j = stack[p][0], stack[p][1]
                 visited.append([i, j])
                 break
-            pointer -= 1
-        p += 1
+            p -= 1
+        c += 1
         if i == n-1 and j == m-1:
             load += 1
 

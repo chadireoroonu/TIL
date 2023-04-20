@@ -52,7 +52,9 @@
       const cardText = document.createElement('p')
       cardText.classList.add('card-text')
       cardText.innerText = content
-
+      
+      cardBody.append(cardTitle, cardText)
+      card.appendChild(cardBody)
       article.appendChild(card)
       cardsSection.appendChild(article)
     }

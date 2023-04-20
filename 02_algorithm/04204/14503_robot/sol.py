@@ -15,7 +15,7 @@ def clean(arr, i, j, h):
     sell = 0
     while True:
         if arr[i][j] == 0:
-            arr[i][j] = -1
+            arr[i][j] = -1    # 벽, 미청소칸과 구분
             sell += 1
         next_sell = 0
         wall = 0
@@ -27,18 +27,20 @@ def clean(arr, i, j, h):
                     next_sell += 1
                 elif arr[ni][nj] == 1:
                     wall += 1
-        if wall == 4:
+        if wall == 4:    # 사방이 벽으로 막혀있다면 중단
             return print(sell)
         if next_sell:
-            h -= 1
+            h -= 1    # 반시계 방향 90도 회전
             ni, nj = i + hi[h % 4], j + hj[h % 4]
+            # 방향 회전 후 앞 칸이 미청소 칸이면 한 칸 전진
             if 0 <= ni < N and 0 <= nj < M and arr[ni][nj] == 0:
                 i, j = ni, nj
         else:
+            # 후진을 위해 h+2 활용, 단, h 값은 변함 없음
             ni, nj = i + hi[(h + 2) % 4], j + hj[(h + 2) % 4]
             if 0 <= ni < N and 0 <= nj < M and arr[ni][nj] != 1:
                 i, j = ni, nj
-            else:
+            else:    # 후진이 불가능하면 청소칸 출력반환
                 return print(sell)
 
 

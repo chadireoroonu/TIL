@@ -35,3 +35,5 @@ SET name='김철수한무두루미',
 WHERE rowid=2;
 
 DELETE FROM classmates;
+
+SELECT * FROM users;

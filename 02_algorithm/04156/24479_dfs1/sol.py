@@ -5,7 +5,7 @@
 # 인접리스트 공부해보기
 
 import sys
-sys.setrecursionlimist(10**5)
+# sys.setrecursionlimist(10**5)
 sys.stdin = open('input.txt')
 
 def DFS(num):

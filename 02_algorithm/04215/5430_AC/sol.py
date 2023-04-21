@@ -5,18 +5,14 @@
 # n의 인덱스로 잘라내기
 
 # 1차 시도 틀렸습니다 -> 한 자리 숫자만 가능
+# 2차 시도 16% 틀렸습니다 -> 빈 리스트면 [] 출력, 띄어쓰기 없이 출력 추가 필요
 
 import sys
 sys.stdin = open('input.txt')
 
-
 T = int(sys.stdin.readline().strip())
 for tc in range(1, T+1):
     p = list(map(str, sys.stdin.readline().strip()))
-    # deque 안에 요소가 없으면 추가,
-    # 요소 있으면, 현재 R, 마지막 요소 R일때 pop
-    # 현재 요소가 D 라면 flag 따라 F, B 추가
-    # flag 1이면 정방향 0이면 역방향
     flag = 1
     F = 0
     B = 0
@@ -32,20 +28,18 @@ for tc in range(1, T+1):
             else:
                 flag = 1
 
-    # print(F, B)
-    # print(flag)
     n = int(sys.stdin.readline().strip())
-    dump = sys.stdin.readline().strip()
-    result = ''
-    for i in range(2*F+1, 2*n+1-2*B-1):
-        result += dump[i]
-    result += ''
-
-    if len(result) > 2:
-        if flag:
-            print(f'[{result}]')
-        else:
-            print(f'[{result[::-1]}]')
-
+    temp = sys.stdin.readline().strip()
+    dump = temp[1:-1]
+    dump = dump.split(',')
+    result = []
+    if n-B-F >= 0:
+        for i in range(F, n-B):
+            result.append(int(dump[i]))
+        if result:
+            if flag:
+                print(result)
+            else:
+                print(result[::-1])
     else:
         print('error')

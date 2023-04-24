@@ -8,7 +8,7 @@
 import sys
 sys.stdin = open('input.txt')
 
-def left(start, num):
+def left(start, num):    # 좌측 탐색
     global sell
     arr = block[start:num]
     temp = max(arr, key=lambda x: x[1])
@@ -19,7 +19,7 @@ def left(start, num):
     else:
         return
 
-def right(num, end):
+def right(num, end):    # 우측 탐색
     global sell
     arr = block[num:end]
     temp = max(arr, key=lambda x: x[1])
@@ -32,15 +32,14 @@ def right(num, end):
 
 h, w = map(int, sys.stdin.readline().split())
 block = list(enumerate(map(int, sys.stdin.readline().split())))
-sell = 0
+sell = 0    # 빗물 고인 영역
 
-left_maxi = max(block, key=lambda x:x[1])
-right_maxi = max(block, key=lambda x:x[1])
+maxi = max(block, key=lambda x:x[1])
 
-if left_maxi[0] > 0:
-    left(0, left_maxi[0])
-if right_maxi[0] < w-1:
-    right(right_maxi[0]+1, w)
+if maxi[0] > 0:    # 탐색할 구간 존재 시 함수 실행
+    left(0, maxi[0])
+if maxi[0] < w-1:
+    right(maxi[0]+1, w)
 
 print(sell)
 

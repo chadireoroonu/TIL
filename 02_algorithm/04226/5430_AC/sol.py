@@ -16,8 +16,7 @@ for tc in range(1, T+1):
     # 현재 요소가 D 라면 flag 따라 F, B 추가
     # flag 1이면 정방향 0이면 역방향
     flag = 1
-    F = 0
-    B = 0
+    F = B = 0
     for i in range(len(p)):
         if p[i] == 'D':
             if flag:

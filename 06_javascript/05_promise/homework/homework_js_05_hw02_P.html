@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <script>
+    console.log('Hi')
+
+    function asyncFunction () {
+      return new Promise(function (resolve){
+        setTimeout(function () {
+          console.log('SSAFY')
+          resolve()
+        })
+      })
+    }
+    asyncFunction()
+      .then(function () {
+        console.log('Bye')
+      })
+
+  </script> -->
+  <script>
+    const sleep = (delay) => {
+      return new Promise((resolve) => {
+        setTimeout(resolve, delay)
+      })
+    }
+    console.log('HI')
+    const timer = async function () {
+      console.log('SSAFY')
+      // async 이후 기다렸다가 처리되게 하고 싶으면 await 사용
+      await sleep(3000)
+    }
+
+    timer()
+      .then(() => console.log('BYE'))
+  </script>
+</body>
+</html>

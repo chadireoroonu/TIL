@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img {
+      height: 500px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cat and Dog API</h1>
+  <h3>1번째 이미지</h3>
+  <img draggable="false" src="./noResult.png" alt="pic">
+  <h2>아직 선택된 사진이 없습니다!</h2>
+  <br>
+  <button>Get</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  
+  <script>
+		// 이곳에 코드를 작성해 주세요 !
+    const DOG_URL = 'https://dog.ceo/api/breeds/image/random'
+    const CAT_URL = 'https://api.thecatapi.com/v1/images/search'
+    const btn = document.querySelector('button')
+    let pk = 1
+
+    switch(pk % 2) {
+      case 1:
+        btn.addEventListener('click', function(event) {
+        axios({
+          method: 'get',
+          url: DOG_URL
+        })
+          .then(function (response) {
+            console.log(response.data.message)
+            const img = document.querySelector('img')
+            img.src = response.data.message
+            const h2 = document.querySelector('h2')
+            h2.style.display = 'none'
+            const h3 = document.querySelector('h3')
+            h3.innerText = `${pk}번째 이미지`
+            pk++
+          })
+          .catch(function (err) {
+            console.log(err)
+            img.src = './noResult.png'
+            h2.style.display = 'block'
+          })   
+      })
+      case 0:
+        btn.addEventListener('click', function(event) {
+        axios({
+          method: 'get',
+          url: CAT_URL
+        })
+          .then(function (response) {
+            console.log(response.data)
+            const img = document.querySelector('img')
+            img.src = response.data
+            const h2 = document.querySelector('h2')
+            h2.style.display = 'none'
+            const h3 = document.querySelector('h3')
+            h3.innerText = `${pk}번째 이미지`
+            pk++
+          })
+          .catch(function (err) {
+            console.log(err)
+            img.src = './noResult.png'
+            h2.style.display = 'block'
+          })   
+        })
+      } 
+  </script>
+</body>
+</html>

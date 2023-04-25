@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button>GET</button>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <div>
+    <p>1번재 이미지</p>
+    <img src="">
+  </div>
+
+  <script>
+    // const CAT_URL = 'https://api.thecatapi.com/v1/images/search'
+    const DOG_URL =  'https://dog.ceo/api/breeds/image/random'
+
+    const btn = document.querySelector('button')
+    let pk = 1
+
+    btn.addEventListener('click', function(event) {
+      axios({
+        method: 'get',
+        url: DOG_URL
+      })
+        .then(function (response) {
+          console.log(response.data)
+          const img = document.querySelector('img')
+          const body = document.querySelector('body')
+
+          img.src = response.data
+          // const div = document.createElement('div')
+          // div.innerHTML = `
+          //   <p>${pk}번째 이미지</p>
+          //   <img src="${img.url}" width="300px" height="300px">
+          //`
+          // pk ++
+
+        // body.appendChild('div')
+      })
+    })
+
+
+  </script>
+
+</body>
+</html>

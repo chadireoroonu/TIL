@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/16236
+
 # 1. 아기 상어보다 작은 물고기만 먹음
 # 2. 상어 크기 수의 물고기 먹으면 성장
 # 3. 상어와 크기 같은 물고기 칸 통과 가능, 섭취 불가능
@@ -15,14 +17,11 @@
 # 최초 상어 좌표 찾은 후 find 함수 실행
 
 # find 함수
-# 먹을 수 있는 물고기 좌표 찾기
-
-# eat 함수
-# 물고기 거리 측정
-# 먹기 -> 좌표 변화
-
-# 먹을 수 없는 위치의 물고기는 어떻게 할까
-# 아예 처음부터 BFS 탐색
+# BFS 탐색으로 거리 기록
+# 먹을 수 있는 물고기 발견 시 시간 기록, deque 삽입
+# 같은 시간까지만 물고기 조사, 물고기 i, j 좌표 우선 정렬
+# 물고기 먹고 상어 위치 재할당
+# 먹은 물고기 수, 상어 크기 등 고려 후 반복
 
 
 import sys
@@ -30,31 +29,61 @@ from collections import deque
 sys.stdin = open('input.txt')
 
 
-def find(arr):
+def find(x, y):
+    global shark
+    eat = 0
+    sec = 0
     while True:
+        visited = [[0] * n for _ in range(n)]
         fish = deque([])
-        for i in range(n):
-            for j in range(n):
-                if 0 < arr[i][j] <= 6 and sea[i][j] < shark:
-                    fish.append([i, j])
+        sea = deque([x, y])
+        visited[x][y] = 1
+        while sea:
+            i = sea.popleft()
+            j = sea.popleft()
+            if fish and fish[0][0] < visited[i][j]:    # 거리가 찾은 최소 거리보다 많으면 조사 그만
+                continue
+            di, dj = [-1, 1, 0, 0], [0, 0, -1, 1]
+            for k in range(4):
+                ni, nj = i + di[k], j + dj[k]
+                if 0 <= ni < n and 0 <= nj < n and visited[ni][nj] == 0:
+                    if arr[ni][nj] <= shark:  # 상어와 같으면 이동 가능
+                        visited[ni][nj] = visited[i][j] + 1
+                        sea.append(ni)
+                        sea.append(nj)
+                        if 0 < arr[ni][nj] < 7 and arr[ni][nj] < shark: # 먹이 발견 시 시간, 좌표 기록
+                            wait = [visited[i][j], ni, nj]
+                            if fish:
+                                if fish[0][0] > wait[0]:
+                                    fish.appendleft(wait)
+                                elif fish[0][0] == wait[0]:
+                                    if fish[0][1] > wait[1]:
+                                        fish.appendleft(wait)
+                                    elif fish[0][1] == wait[1] and fish[0][2] > wait[2]:
+                                        fish.appendleft(wait)
+                            else:
+                                fish.append(wait)
         if fish:
-            eat(fish)
+            sec += fish[0][0]
+            x, y = fish[0][1], fish[0][2]
+            arr[x][y] = 0
+            eat += 1
+            if eat == shark:
+                shark += 1
+                eat = 0
+
         else:
-            return
-
-
-def eat(arr):
-    global sec, shark
-    visited = [[0]*n for _ in range(n)]
-    while arr:
-
-
-    return
+            return print(sec)
 
 
 n = int(sys.stdin.readline().strip())
-sea = [list(map(int, sys.stdin.readline().split())) for _ in range(n)]
-sec = 0
+arr = [list(map(int, sys.stdin.readline().split())) for _ in range(n)]
 shark = 2
+iidx = jidx = 0
 
-find(sea)
+for a in range(n):
+    for b in range(n):
+        if arr[a][b] == 9:
+            iidx, jidx = a, b
+
+find(iidx, jidx)

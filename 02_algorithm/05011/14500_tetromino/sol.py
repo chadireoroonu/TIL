@@ -46,5 +46,4 @@ for i in range(N):
             if temp > maxi:
                 maxi = temp
             temp = arr[i][j]
-
-print(maxi)
+print(maxi-1)

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <style>
+      .completed {
+        text-decoration: line-through;
+      }
+    </style>
+</head>
+<body>
+  <div id="app">
+    <h1>Todo List</h1>
+    <input type="text" v-model="inputText">
+    <button @click="addList">+</button>
+    <ul>
+      <li v-for="(todo, idx) in todoList" :key="idx">
+        <input type="checkbox" v-model="done" :value="todo">
+        <span :class="{ completed: done.includes(todo) }">
+          {{ todo }}
+        </span>
+      </li>
+    </ul>
+    <button @click="clear">완료 목록 삭제</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        inputText: '',
+        todoList: [],
+        done: []
+      },
+      methods: {
+        addList() {
+          const inputText = this.inputText
+          if (inputText === '') {
+            alert('내용을 입력해 주세요!')
+          } else {
+            this.todoList.push(inputText)
+            this.inputText = ''
+          }
+        },
+        clear() {
+          this.todoList = this.todoList.filter(todo => !this.done.includes(todo))
+          this.done = []
+        }
+      }
+    })
+  </script>
+</body>
+</html>

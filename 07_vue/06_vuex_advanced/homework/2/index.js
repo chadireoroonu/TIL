@@ -6,7 +6,7 @@ export default new Vuex.Store({
   },
   mutations: {
     NUMBER_INCREMENT: function (state) {
-      return state.count
+      state.count++
     },
   },
   actions: {

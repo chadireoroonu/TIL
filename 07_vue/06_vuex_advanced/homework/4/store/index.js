@@ -1,6 +1,6 @@
 // store/index.js
 
-__(a)__: {
+actions: {
   fetchTodoList: async function ({ commit }) {
     const requestUrl = 'http://localhost:8000/api/v1/todos/'
 

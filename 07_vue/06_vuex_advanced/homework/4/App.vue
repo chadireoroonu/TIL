@@ -3,6 +3,6 @@
 export default {
   name: 'App',
   created: function () {
-    __(b)__
+    this.$store.dispatch('fetchTodoList')
   },
 }

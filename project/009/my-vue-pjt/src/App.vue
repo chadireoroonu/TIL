@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/api/v1/index/">Article</router-link>
+      <router-link to="/movies">Movie</router-link>    |
+      <router-link to="/random">Random</router-link>    | 
+      <router-link to="/watch-list">WatchList</router-link>
     </nav>
     <router-view/>
   </div>
@@ -18,12 +19,15 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 20px;
+  text-align: right;
+  background-color: rgb(188, 236, 250);
 }
 
 nav a {
   font-weight: bold;
   color: #2c3e50;
+  text-decoration: none;
 }
 
 nav a.router-link-exact-active {

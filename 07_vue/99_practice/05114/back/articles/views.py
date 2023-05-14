@@ -1,20 +1,19 @@
-from django.shortcuts import render
+# articles/views.py
+
+from django.shortcuts import render, get_object_or_404
 from .models import Article
 from .serializer import ArticleSerializer
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from django.shortcuts import get_object_or_404
 from rest_framework import status
 
-
-# Create your views here.
 @api_view(['GET'])
 def index(request):
-    # Article 모델에 있는 모든 인스턴스 가져온다.
+    # Article 모델에 있는 모든 인스턴스 가져오기
     articles = Article.objects.all()
-    # ArticleSerializer를 사용해서 articles(Article의 모든 인스턴스를 담은 변수)를 직렬화한다.
+    # ArticleSerializer를 사용해서 articles(Article의 모든 인스턴스를 담은 변수)를 직렬화
     serializer = ArticleSerializer(articles, many=True)
-    # Response를 사용해서 serializer로 직렬화한 데이터를 반환한다.
+    # Response를 사용해서 serializer로 직렬화한 데이터를 반환
     return Response(serializer.data)
 
 @api_view(['POST'])

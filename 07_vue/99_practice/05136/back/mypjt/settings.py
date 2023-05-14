@@ -128,6 +128,7 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# pip install django-cors-headers 이후 추가
 # CORS 설정 -> 브라우저가 차단하지 않도록 하는 작업
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:8080',    # vue 서버 주소 등록
